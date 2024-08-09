@@ -1,0 +1,33 @@
+/* styles.css */
+
+.side-component {
+    background: linear-gradient(to right, #FFA500, #00BFFF); /* Gradient from orange to blue */
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333; /* Adjust text color if needed */
+  }
+  
+  .side-component .header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .side-component .header .icon {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    padding: 8px;
+  }
+  
+  .side-component .content {
+    margin-top: 16px;
+    font-size: 0.875rem;
+    color: #666; /* Adjust text color if needed */
+  }
+  .bg-gray-100 {
+    background-color: #f7fafc; /* Light gray background color */
+  }
+  
